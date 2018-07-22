@@ -1,0 +1,40 @@
+rpm -i <rmp Package Name> [rpm -i jre-8u151-linux-x64.rpm]
+
+rpm -i <rmp Package Name> [rpm -ivh jre-8u151-linux-x64.rpm]
+	i = Install 
+	v = See what command is doing
+	h = Show the Status of Command
+
+which java
+	/bin/java
+
+rpm -q <packageName>
+	q = Query Name
+	
+rpm -qi <packageName> = yum info 
+	i = Details
+
+rpm -ql <packageName>
+	l = list of Files
+
+rpm -qd <packageName>
+	d = text files list only in packageName
+
+rpm -qR <packageName>
+	R = Required Dependencies
+
+rpm -qpR <rmp.rpm>
+	pR = Required Dependencies before installation by RPM Files
+
+rpm -u <rpm file.rpm>
+	u = Update [Need to download rpm first]
+
+rpm -e --test <packageName>
+	e = Remove Package
+	--test = test for any Error after remove of package
+
+rpm -e <packageName>
+
+which java
+
+rpm -q <packageName>
