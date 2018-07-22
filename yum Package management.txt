@@ -1,0 +1,35 @@
+yum - Yellow Dog Modifier, Updater
+
+1. yum search http
+2. yum info httpd
+
+
+			Loaded plugins: fastestmirror
+			Loading mirror speeds from cached hostfile
+			 * base: mirror.nbrc.ac.in
+			 * epel: kartolo.sby.datautama.net.id
+			 * extras: mirror.ehost.vn
+			 * updates: mirror.vbctv.in
+			Available Packages
+			Name        : httpd
+			Arch        : x86_64
+			Version     : 2.4.6
+			Release     : 80.el7.centos.1
+			Size        : 2.7 M
+			Repo        : updates/7/x86_64
+			Summary     : Apache HTTP Server
+			URL         : http://httpd.apache.org/
+			License     : ASL 2.0
+			Description : The Apache HTTP Server is a powerful, efficient, and extensible
+						: web server.
+
+			
+
+yum install httpd [Install Package httpd]
+yum list installed httpd [Installed package of httpd]
+yum deplist httpd [List all dependencies of httpd]
+yum remove httpd [Remove httpd without dependencies]
+yum autoremove httpd [Remove httpd with non-usable dependencies]	
+yum repolist [cd  /etc/yum.repos.d]
+yum clean all
+yum update	
